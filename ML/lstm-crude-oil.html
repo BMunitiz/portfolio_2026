@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSTM Crude Oil Price Prediction - Borja Munitiz</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Borja Munitiz</h1>
+            <p>Exploring Data, Machine Learning & AI Agents</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../ml.html">ML Projects</a></li>
+                <li><a href="../data-analysis.html">Data Analysis</a></li>
+                <li><a href="../ai-agents.html">AI Agents</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <h2>LSTM Crude Oil Price Prediction</h2>
+            <div class="project-detail">
+                <div class="project-description">
+                    <p>This project demonstrates the implementation of a Long Short-Term Memory (LSTM) neural network for predicting crude oil prices. The model uses historical Brent crude oil prices from the U.S. Energy Information Administration (EIA).</p>
+
+                    <h3>Project Overview</h3>
+                    <p>The LSTM model leverages time series forecasting capabilities to predict future crude oil prices based on historical data patterns. This approach is particularly effective for financial and commodity price prediction where temporal dependencies are crucial.</p>
+
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Implementation of LSTM neural network architecture for time series prediction</li>
+                        <li>Historical data processing from 1987-2018</li>
+                        <li>Stateful LSTM approach for better handling of long sequences</li>
+                        <li>Feature scaling using Min-Max normalization</li>
+                        <li>Comprehensive evaluation using MAE and RMSE metrics</li>
+                    </ul>
+
+                    <h3>Technical Details</h3>
+                    <p>The model architecture includes:</p>
+                    <ul>
+                        <li>Two LSTM layers with 10 neurons each</li>
+                        <li>Stateful LSTM mode for preserving memory between batches</li>
+                        <li>Input layer with 30 time steps and 1 feature (price)</li>
+                        <li>Dense output layer for price prediction</li>
+                        <li>Loss functions: MAE (Mean Absolute Error) and MSE (Mean Squared Error)</li>
+                    </ul>
+
+                    <h3>Performance Metrics</h3>
+                    <p>The model achieved:</p>
+                    <ul>
+                        <li>MAE (Mean Absolute Error): ~2.46</li>
+                        <li>RMSE (Root Mean Squared Error): ~2.90</li>
+                        <li>Relative error of ~5.78% compared to average price (~48.15)</li>
+                    </ul>
+
+                    <h3>Visual Insights</h3>
+                    <p>Key visualizations from the LSTM model include:</p>
+                    <div class="visualization-placeholder">
+                        <p><strong>Price Prediction vs Actual:</strong> Line chart comparing predicted vs actual crude oil prices</p>
+                        <div id="predictionChart" style="width:100%; height:300px;"></div>
+                        <p><strong>Model Performance:</strong> Graph showing training and validation loss over epochs</p>
+                        <div id="lossChart" style="width:100%; height:300px;"></div>
+                        <p><strong>Price Trends:</strong> Time series visualization of price movements</p>
+                        <div id="priceTrendChart" style="width:100%; height:300px;"></div>
+                    </div>
+
+                    <h3>Key Insights</h3>
+                    <p>The model demonstrates good performance in capturing the general trend of crude oil prices and shows effectiveness in handling price volatility patterns. However, it's important to note that:</p>
+                    <ul>
+                        <li>Model is limited to historical data (1987-2018)</li>
+                        <li>External factors affecting oil prices are not included</li>
+                        <li>Requires more recent data for better accuracy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Borja Munitiz</p>
+        </div>
+    </footer>
+    <script src="../charts.js"></script>
+</body>
+</html>

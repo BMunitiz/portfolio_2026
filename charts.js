@@ -133,6 +133,41 @@ document.addEventListener('DOMContentLoaded', function() {
                 fill: true,
                 borderWidth: 2
             }]
+        },
+        // Region Unemployment Chart Data
+        regionUnemploymentData: {
+            labels: ['Ceuta', 'Melilla', 'Extremadura', 'Canarias', 'Andalucía', 'Castilla - La Mancha', 'Comunitat Valenciana', 'Región de Murcia', 'Cantabria', 'Comunidad de Madrid', 'Principado de Astúrias', 'País Vasco', 'Galicia', 'Comunidad Foral de Navarra', 'Cataluña', 'Castilla y León', 'La Rioja', 'Aragón', 'Illes Balears'], 
+            datasets: [{
+                label: 'Unemployment rate',
+                data: [11.4, 9.9, 6.8, 6.4, 6.1, 5.1, 4.8, 4.8, 4.7, 4.7, 4.2, 3.8, 3.8, 3.5, 3.3, 3.2, 3.1, 2.5, 2.1],
+                backgroundColor: ['#414833', '#737A5D', '#A4AC86', '#CCBFA3', '#EBE3D2', '#A4AC86', '#737A5D', '#414833'],
+                borderColor: '#414833',
+                borderWidth: 1
+            }]
+        },
+         // Gender Comparison Chart Data
+        genderAgeData: {
+            labels: ['Women <= 45', 'Women 25-45', 'Women < 25', 'Men <= 45', 'Men 25-45', 'Men < 25'],
+            datasets: [{
+                label: 'Percentage of total unemployed',
+                data: [35.2, 21.2, 3.4, 22.8, 13.6, 3.8],
+                backgroundColor: ['#414833', '#737A5D', '#A4AC86', '#CCBFA3', '#EBE3D2', '#A4AC86'],
+                borderColor: '#414833',
+                borderWidth: 1
+            }]
+        },
+        // Unemployment rate Chart Data
+        unemploymentRateData: {
+            labels: ['2021', '2022', '2023', '2024'],
+            datasets: [{
+                label: 'Unemployment Rate (%)',
+                data: [6.17, 4.90, 4.59, 4.37],
+                borderColor: '#414833',
+                backgroundColor: 'rgba(65, 72, 51, 0.1)',
+                tension: 0.4,
+                fill: true,
+                borderWidth: 2
+            }]
         }
     };
 
@@ -163,6 +198,17 @@ document.addEventListener('DOMContentLoaded', function() {
         if (document.getElementById('priceTrendAnalysisChart')) {
             createChart('priceTrendAnalysisChart', 'line', sampleData.priceTrendAnalysisData, { title: 'Price Trend Analysis' });
         }
+        if (document.getElementById('regionUnemploymentChart')) {
+            createChart('regionUnemploymentChart', 'bar', sampleData.regionUnemploymentData, { title: 'Unemployment Rates by Region (Dec 2024)' });
+        }
+        if (document.getElementById('genderAgeChart')) {
+            createChart('genderAgeChart', 'bar', sampleData.genderAgeData, { title: 'Unemployment Distribution by Gender and Age Group (2024)' });
+        }
+        if (document.getElementById('unemploymentRateChart')) {
+            createChart('unemploymentRateChart', 'line', sampleData.unemploymentRateData, { title: 'Unemployment Rate Trend (2021-2024)' });
+        }   
+
+
     } catch (error) {
         console.error('Error initializing charts:', error);
         // Fallback: Show a message if charts fail to load

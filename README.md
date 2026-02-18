@@ -35,7 +35,7 @@ Passionate and results-driven Data Scientist with extensive expertise in Machine
 - **Frameworks and Libraries:** TensorFlow, Keras, PyTorch, scikit-learn, Apache Spark, OpenCV, Pillow, scipy, LLM, AI Agents frameworks
 - **Data Analysis:** Statistical Data Analysis, Data Modeling, Data Mining, Data Visualization
 - **Big Data Technologies:** Apache Spark
-- **IA Agents:** Agno Framework, RAG, Graph RAG
+- **IA Agents and LLM:** Agno Framework, RAG, Graph RAG, Fine Tuning
 - **Other Technologies:** Digital Signal Processing, Internet of Things (IoT)
 
 ---

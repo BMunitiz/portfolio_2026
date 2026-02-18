@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Unemployment Analysis - Borja Munitiz</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Borja Munitiz</h1>
+            <p>Exploring Data, Machine Learning & AI Agents</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../ml.html">ML Projects</a></li>
+                <li><a href="../data-analysis.html">Data Analysis</a></li>
+                <li><a href="../ai-agents.html">AI Agents</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <h2>Spanish Unemployment Analysis</h2>
+            <div class="project-detail">
+                <div class="project-description">
+                    <p>This comprehensive analysis project explores Spanish unemployment data across regions and time periods, providing insights into regional disparities and temporal trends.</p>
+                    <br/>
+                    <h3>Project Overview</h3>
+                    <p>The analysis focuses on understanding the Spanish unemployment landscape by examining data across regions and time periods. The project leverages official government data, ETL processes and data analysis techniques to uncover meaningful patterns in regional, gender, age and sector disparities and temporal trends.</p>
+                    <br/>
+                    <h3>Data Source</h3>
+                    <p>The dataset contains information about Spanish unemployment data with details including:</p>
+                    <ul>
+                        <li>Regional unemployment rates across Spain</li>
+                        <li>Gender and age group breakdowns</li>
+                        <li>Sectoral employment data</li>
+                        <li>Temporal trends over multiple years</li>
+                    </ul>
+                    <br/>
+                    <h3>Key Findings</h3>
+                    <p>Analysis reveals significant variations in unemployment rates across different regions and demographic groups:</p>
+                    <ul>
+                        <li>South regions of Spain show consistently higher unemployment rates compared to northern regions</li>
+                        <li>Women over 45 show higher unemployment rates than any other demographic group</li>
+                        <li>Similar trends in both genders, consistently reducing the difference over time</li>
+                        <li>Service sector has the strongest pull in unemployment rates</li>
+                    </ul>
+                    <br/>
+                    <h3>Visual Insights</h3>
+                    <p>Key visualizations from the analysis include:</p>
+                    <div class="visualization-placeholder">
+                        <p><strong>Unemployment by Region:</strong> Bar chart showing unemployment rates across Spanish regions</p>
+                        <div id="regionUnemploymentChart" style="width:100%; height:300px;"></div>
+                        <p><strong>Gender and Age Group Comparison:</strong> Bar chart comparing unemployment rates by gender and age group</p>
+                        <div id="genderAgeChart" style="width:100%; height:300px;"></div>
+                        <p><strong>Unemployment Trends:</strong> Line graph showing unemployment changes over time</p>
+                        <div id="unemploymentRateChart" style="width:100%; height:300px;"></div>
+                    </div>
+                    <br/>
+                    <h3>Technical Approach</h3>
+                    <p>The analysis uses:</p>
+                    <ul>
+                        <li>Python and Pandas for data extraction and manipulation</li>
+                        <li>Statistical analysis for unemployment comparisons</li>
+                        <li>Grouping and aggregation techniques</li>
+                        <li>Visualizations with Plotly and Folium</li>
+                    </ul>
+                    <br/>
+                    <h3>Insights</h3>
+                    <p>This analysis provides valuable insights for:</p>
+                    <ul>
+                        <li>Policy makers understanding regional disparities</li>
+                        <li>Academic researchers studying labor market trends</li>
+                        <li>Employment agencies targeting specific demographics</li>
+                        <li>Desired employment outcomes for job seekers</li>
+                    </ul>
+                    <br/>
+                    <a href="https://github.com/BMunitiz/portfolio_2026/tree/main/data_analysis/Analisis_paro" class="btn">View Analysis and Visualizations</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Borja Munitiz</p>
+        </div>
+    </footer>
+    <script src="../charts.js"></script>
+</body>
+</html>

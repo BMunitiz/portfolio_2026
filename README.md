@@ -16,6 +16,7 @@ Passionate and results-driven Data Scientist with extensive expertise in Machine
 
 ## Education
 
+- **Junior Data Analyst Cerificate (UPC) 2026**
 - **IT Academy Data Analytics (Barcelona Activa) 2025**
 - **IBM AI Engineering Specialization (Coursera) (2024)**
 - **Professional Certificate IBM Data Science (Coursera) (2023)**
@@ -34,6 +35,7 @@ Passionate and results-driven Data Scientist with extensive expertise in Machine
 - **Frameworks and Libraries:** TensorFlow, Keras, PyTorch, scikit-learn, Apache Spark, OpenCV, Pillow, scipy, LLM, AI Agents frameworks
 - **Data Analysis:** Statistical Data Analysis, Data Modeling, Data Mining, Data Visualization
 - **Big Data Technologies:** Apache Spark
+- **IA Agents:** Agno Framework, RAG, Graph RAG
 - **Other Technologies:** Digital Signal Processing, Internet of Things (IoT)
 
 ---
@@ -55,8 +57,6 @@ Passionate and results-driven Data Scientist with extensive expertise in Machine
 
 ## Certifications
 
-- Junior Data Analyst Cerificate (UPC) 2026
-- IT Academy: Bootcamp Data Analytics (Barcelona Activa) 2025
 - Applied AI with DeepLearning (Coursera) 2024
 - IBM AI Engineering Professional Certificate (Coursera) 2024
 - IBM Computer Vision and Image Processing (Coursera) 2024

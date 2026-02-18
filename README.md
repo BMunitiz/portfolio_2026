@@ -40,31 +40,6 @@ Passionate and results-driven Data Scientist with extensive expertise in Machine
 
 ## Projects
 
-**Data Analysis**
-- [World Travel Data Dashboard](https://github.com/BMunitiz/EDA) [- Try the App -](https://huggingface.co/spaces/BorjaMun/World_tourism)
-- [Comprehensive analysis of unemployment data in Spain during the period 2021-2024](https://github.com/BMunitiz/IT-Academy/blob/main/Proyecto/paper.pdf)
-
-**Classification for tabular data Model**
-
-- [Classification model for a medical dataset](https://github.com/BMunitiz/MCFS-Classification)
-
-**Image Classification Models**
-
-- [Developed and trained an image classifier using TensorFlow and Keras](https://github.com/BMunitiz/Computer-vision)
-- [Image classifier App using Fast AI and Gradio](https://huggingface.co/spaces/BorjaMun/minimal)
-  
-
-**NLP (text generation)**
-
-- [Built and generate text using GPT2 and GPT generation text from scratch using Keras](https://github.com/BMunitiz/GPT-fromscratch)
-- [Text generation from scratch using LSTM model](https://github.com/BMunitiz/NLP)
-
-**AI Agents & LLM**
-
-- [Agno Assist Agent - Streamlit GUI](https://github.com/BMunitiz/Ollama_GUI_Agent)
-- [Desktop chat application built with PyQt5](https://github.com/BMunitiz/Ollama_PyQt5)
- 
-
 ---
 
 ## Relevant Coursework
@@ -80,6 +55,8 @@ Passionate and results-driven Data Scientist with extensive expertise in Machine
 
 ## Certifications
 
+- Junior Data Analyst Cerificate (UPC) 2026
+- IT Academy: Bootcamp Data Analytics (Barcelona Activa) 2025
 - Applied AI with DeepLearning (Coursera) 2024
 - IBM AI Engineering Professional Certificate (Coursera) 2024
 - IBM Computer Vision and Image Processing (Coursera) 2024
